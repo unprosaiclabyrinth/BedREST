@@ -1,4 +1,4 @@
-# $$\lambda\lambda$$M
+# \lambda\lambdaM
 
 **Author: Himanshu Dongre**
 **YouTube video link:**
