@@ -1,4 +1,4 @@
-# \lambda\lambdaM
+# \lambda \lambda M
 
 **Author: Himanshu Dongre**
 **YouTube video link:**
