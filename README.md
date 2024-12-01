@@ -1,7 +1,7 @@
 # λλM
 
-**Author: Himanshu Dongre**
-**YouTube video link:**
++ **Author: Himanshu Dongre**
++ **YouTube video link:**
 
 ## Overview
 
