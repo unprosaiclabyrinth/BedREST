@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(org.CS441.hw3.hdongr2.ConfigSpec, org.scalatest.tools.Framework$$anon$1@18d6ea6d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mConfigSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe root config[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have max tokens in the path[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have a RESTful server configuration in the path[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mThe server config[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should should have its host IP in the path[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should should have its port in the path[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 173 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org.CS441.hw3.hdongr2.ConfigSpec[0m

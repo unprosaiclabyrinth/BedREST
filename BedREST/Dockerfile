@@ -24,14 +24,13 @@
 #WORKDIR /app
 #
 ## Copy the built JAR from the builder stage
-#COPY --from=builder /app/target/scala-*/bedrest-client-fat.jar app.jar
+#COPY --from=builder /app/target/scala-*/grpc-proxy-fat.jar app.jar
 #
 ## Expose the port your application runs on
-#EXPOSE 7070
+#EXPOSE 50051
 #
 ## Command to run the application
 #CMD ["java", "-jar", "app.jar"]
-
 FROM hseeberger/scala-sbt:graalvm-ce-21.3.0-java17_1.6.2_3.1.1
 
 # Set the working directory inside the container

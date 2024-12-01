@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+// LLM service definition
+service LambdaLlmQuery {
+  // Generates a response to a prompt
+  rpc generateText(LambdaLlmRequest) returns (LambdaLlmResponse) {}
+}
+
+message LambdaLlmRequest {
+  string prompt = 1;
+  int32 maxTokens = 2;
+}
+
+message LambdaLlmResponse {
+  string generation = 1;
+}
