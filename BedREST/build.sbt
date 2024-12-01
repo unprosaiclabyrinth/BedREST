@@ -17,3 +17,16 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.4.3",
   "org.scalatest" %% "scalatest" % "3.2.19" % "test"
 )
+
+assembly / assemblyJarName := "bedrest-client-fat.jar"
+assembly / assemblyMergeStrategy := {
+  case PathList("META-INF", "MANIFEST.MF") => MergeStrategy.discard
+  case PathList("META-INF", xs @ _*) if xs.contains("spring.schemas") => MergeStrategy.concat
+  case PathList("META-INF", xs @ _*) if xs.contains("spring.handlers") => MergeStrategy.concat
+  case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+  case PathList("reference.conf") => MergeStrategy.concat
+  case "application.conf" => MergeStrategy.concat
+  case "logback.xml" => MergeStrategy.first
+  case x if x.endsWith(".proto") => MergeStrategy.rename
+  case _ => MergeStrategy.first
+}

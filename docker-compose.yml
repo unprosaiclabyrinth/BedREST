@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  restful-server:
+    image: restful-server
+    build:
+      context: RestfulProxy
+    ports:
+      - 8080:8080  # Mapping port (replace with actual port numbers)
+
+  grpc-proxy:
+    image: grpc-proxy
+    build:
+      context: GrpcProxy
+    ports:
+      - 50051:50051
+
+  bedrest-client:
+    image: bedrest-client
+    build:
+      context: BedREST
+    ports:
+      - 7070:7070
+    stdin_open: true
+    tty: true
+    depends_on:
+      - restful-server
+      - grpc-proxy

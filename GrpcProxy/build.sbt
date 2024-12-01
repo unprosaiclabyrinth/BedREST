@@ -26,3 +26,16 @@ libraryDependencies ++= Seq(
 Compile / PB.targets := Seq(
   scalapb.gen() -> (Compile / sourceManaged).value / "scalapb"
 )
+
+assembly / assemblyJarName := "grpc-proxy-fat.jar"
+assembly / assemblyMergeStrategy := {
+  case PathList("META-INF", "MANIFEST.MF") => MergeStrategy.discard
+  case PathList("META-INF", xs @ _*) if xs.contains("spring.schemas") => MergeStrategy.concat
+  case PathList("META-INF", xs @ _*) if xs.contains("spring.handlers") => MergeStrategy.concat
+  case PathList("META-INF", xs @ _*) => MergeStrategy.discard
+  case PathList("reference.conf") => MergeStrategy.concat
+  case "proxy.conf" => MergeStrategy.concat
+  case "logback.xml" => MergeStrategy.first
+  case x if x.endsWith(".proto") => MergeStrategy.rename
+  case _ => MergeStrategy.first
+}

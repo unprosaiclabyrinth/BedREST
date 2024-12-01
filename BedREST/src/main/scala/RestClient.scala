@@ -39,8 +39,16 @@ object RestClient:
   }
 
   @main
-  def runClientLoop(): Unit = {
-    println("Welcome to the BedREST, the client loop for λλM! Type 'quit' to exit.")
-    clientLoop() // Start the loop
+  def runClient(mode: String = "active"): Unit = {
+    if mode == "passive" then
+      val prompts = List("Hi", "Who are you?", "Tell me a story", "What do you think of cloud computing", "I hate you")
+      prompts foreach(prompt =>
+        println(s"PROMPT> $prompt")
+        println(s"λλMGen> ${generate(prompt)}")
+        println
+      )
+    else
+      println("Welcome to the BedREST, the client loop for λλM! Type 'quit' to exit.")
+      clientLoop() // Start the loop
   }
 
