@@ -1,0 +1,69 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmRequest.scala:15:18 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m15 |[0m    [33mprivate[0m[[33mthis[0m] [33mvar[0m __serializedSizeMemoized: _root_.scala.Int = [31m0[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mIgnoring [this] qualifier.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis syntax will be deprecated in the future; it should be dropped.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mSee: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmRequest.scala:16:18 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m16 |[0m    [33mprivate[0m[[33mthis[0m] [33mdef[0m __computeSerializedSize(): _root_.scala.Int = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mIgnoring [this] qualifier.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis syntax will be deprecated in the future; it should be dropped.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mSee: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmRequest.scala:126:107 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m126 |[0m  [33mdef[0m [36mmessageCompanionForFieldNumber[0m([36m__number[0m: _root_.scala.Int): _root_.scalapb.GeneratedMessageCompanion[_] = [33mthrow[0m [33mnew[0m [35mMatchError[0m(__number)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                                                                           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m`_` is deprecated for wildcard arguments of types: use `?` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmRequest.scala:127:82 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m127 |[0m  [33mlazy[0m [33mval[0m [36mnestedMessagesCompanions[0m: [35mSeq[0m[_root_.scalapb.GeneratedMessageCompanion[_ <: _root_.scalapb.GeneratedMessage]] = Seq.empty[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                                                  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m`_` is deprecated for wildcard arguments of types: use `?` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmRequest.scala:128:106 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m128 |[0m  [33mdef[0m [36menumCompanionForFieldNumber[0m([36m__fieldNumber[0m: _root_.scala.Int): _root_.scalapb.GeneratedEnumCompanion[_] = [33mthrow[0m [33mnew[0m [35mMatchError[0m(__fieldNumber)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                                                                          ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m`_` is deprecated for wildcard arguments of types: use `?` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmResponse.scala:14:18 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m14 |[0m    [33mprivate[0m[[33mthis[0m] [33mvar[0m __serializedSizeMemoized: _root_.scala.Int = [31m0[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mIgnoring [this] qualifier.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis syntax will be deprecated in the future; it should be dropped.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mSee: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmResponse.scala:15:18 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m15 |[0m    [33mprivate[0m[[33mthis[0m] [33mdef[0m __computeSerializedSize(): _root_.scala.Int = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mIgnoring [this] qualifier.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis syntax will be deprecated in the future; it should be dropped.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mSee: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmResponse.scala:101:107 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m101 |[0m  [33mdef[0m [36mmessageCompanionForFieldNumber[0m([36m__number[0m: _root_.scala.Int): _root_.scalapb.GeneratedMessageCompanion[_] = [33mthrow[0m [33mnew[0m [35mMatchError[0m(__number)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                                                                           ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m`_` is deprecated for wildcard arguments of types: use `?` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmResponse.scala:102:82 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m102 |[0m  [33mlazy[0m [33mval[0m [36mnestedMessagesCompanions[0m: [35mSeq[0m[_root_.scalapb.GeneratedMessageCompanion[_ <: _root_.scalapb.GeneratedMessage]] = Seq.empty[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                                                  ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m`_` is deprecated for wildcard arguments of types: use `?` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LambdaLlmResponse.scala:103:106 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m103 |[0m  [33mdef[0m [36menumCompanionForFieldNumber[0m([36m__fieldNumber[0m: _root_.scala.Int): _root_.scalapb.GeneratedEnumCompanion[_] = [33mthrow[0m [33mnew[0m [35mMatchError[0m(__fieldNumber)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m    |[0m                                                                                                          ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0m`_` is deprecated for wildcard arguments of types: use `?` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m    |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LlmqueryProto.scala:10:76 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m10 |[0m  [33mlazy[0m [33mval[0m [36mmessagesCompanions[0m: [35mSeq[0m[_root_.scalapb.GeneratedMessageCompanion[_ <: _root_.scalapb.GeneratedMessage]] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                                            ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m`_` is deprecated for wildcard arguments of types: use `?` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m-- Warning: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/src_managed/main/scalapb/llmquery/LlmqueryProto.scala:11:49 [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m11 |[0m    Seq[_root_.scalapb.GeneratedMessageCompanion[_ <: _root_.scalapb.GeneratedMessage]]([0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m[33m   |[0m                                                 ^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0m`_` is deprecated for wildcard arguments of types: use `?` instead[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m   |[0mThis construct can be rewritten automatically under -rewrite -source 3.4-migration.[0m
+[0m[[0m[33mwarn[0m] [0m[0m12 warnings found[0m

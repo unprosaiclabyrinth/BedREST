@@ -1,0 +1,74 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryBlockingStub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcProxy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryBlockingClient.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmRequest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmqueryProto.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmResponse.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcProxy$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQuery$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConfigParser.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQuery.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryStub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$LllmRequestProxy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CreateLogger.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$LllmRequestProxy$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CreateLogger$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runProxy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmRequest$LambdaLlmRequestLens.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$LllmResponseProxy.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryStub$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConfigParser$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryBlockingStub$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmResponse$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$LllmResponseProxy$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$$anon$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmqueryProto$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmResponse$LambdaLlmResponseLens.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryBlockingStub.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcProxy.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryBlockingClient.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$$anon$1.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmRequest.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmqueryProto.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmResponse.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcProxy$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQuery$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConfigParser.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQuery.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryStub.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$$anon$3.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$LllmRequestProxy.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CreateLogger.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$LllmRequestProxy$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CreateLogger$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$$anon$2.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	runProxy.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmRequest$LambdaLlmRequestLens.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$LllmResponseProxy.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryStub$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ConfigParser$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$LambdaLlmQueryBlockingStub$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmResponse$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$LllmResponseProxy$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GrpcServiceImpl$$anon$4.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmQueryGrpc$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LlmqueryProto$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmRequest$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	LambdaLlmResponse$LambdaLlmResponseLens.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/prosaiclabyrinth/Desktop/CS/CS441/hw3/λλM/GrpcProxy/target/scala-3.6.1/classes.bak[0m
