@@ -19,7 +19,7 @@ There are four main components of λλM:-
 
 Hence the pipeline that λλM showcases is as follows (λλM routes HTTP requests like this):-
 
-λλM client ---[HTTP/1.1]$$\to$$ RESTful server -->[gRPC] gRPC proxy -->[HTTP/1.1] LLM backend
+λλM client -[HTTP/1.1]-> RESTful server -[gRPC]-> gRPC proxy -[HTTP/1.1]-> LLM backend
 
 ### LLM Backend
 
