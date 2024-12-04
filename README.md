@@ -6,11 +6,7 @@
 
 ## Overview
 
-λλM is designed to provide a web service in the cloud that enables HTTP clients to access LLM capabilities. The system is crafted to deliver a cloud-based web service, offering clients the ability to interact with an LLM through straightforward REST API endpoints. It serves as an intermediary, facilitating seamless communication between users and advanced AI functionalities. By abstracting the complexity of underlying processes, it provides a simple yet powerful interface for integrating generative AI capabilities into various applications and workflows.
-
-By providing a simple, standardized interface, λλM makes it easy for end-users to integrate AI-driven processes into a wide range of applications and workflows. Clients can send requests to λλM and receive LLM-generated text responses, enabling the creation of dynamic, intelligent, and context-aware solutions for diverse use cases.
-
-λλM emphasizes accessibility and simplicity, abstracting the complexities of LLM generation to present a user-friendly interface. This makes it suitable for various domains, such as enhancing user experiences, automating repetitive tasks, or analyzing and transforming data in innovative ways. Its flexible design allows clients to leverage cutting-edge AI capabilities without needing to invest in or manage the underlying infrastructure, focusing solely on utilizing the outputs for their specific needs.
+λλM is designed to provide a web service in the cloud that enables HTTP clients to access LLM capabilities. The system is crafted to deliver a cloud-based web service, offering clients the ability to interact with an LLM through straightforward REST API endpoints.
 
 ## Architecture
 
