@@ -39,7 +39,7 @@ The gRPC proxy server contains a config file, which can be updated to configure 
 
 λλM implements a lightweight web server in its pipeline. It is the direct server for λλM clients, and a client to the gRPC proxy, implemented using generated protobuf stubs. The RESTful server is implemented using Scala's **Scalatra** framework. It defines a `/query` resource, to which the REST client can send its HTTP requests. The server extracts generation parameters from the request, wraps them in an `LlmQueryRequest` object and gRPC's the gRPC server for the response. It receives an `LlmQueryResponse` object from the gRPC server, extracts the generated text from it, and sends it as an HTTP response to the λλM client.
 
-The RESTful server contains a config file, which can be updated to configure the host for the gRPC server, the port for the gRPC server, and the port on which the RESTful server itself is listening.
+The RESTful server contains a config file, which can be updated to configure the host for the gRPC server, the port for the gRPC server, and the port on which the RESTful server itself is listening. The default port for the RESTful server is 8080.
 
 ### RESTful client
 
@@ -82,7 +82,11 @@ cd ..
 
 ## Testing and Logging
 
-λλM uses **Scalatest** as the testing framework. The BedREST client, RESTful server, and the gRPC proxy contain tests that check whether the components have the correct configurations.
+λλM uses **Scalatest** as the testing framework. The BedREST client, RESTful server, and the gRPC proxy contain tests that check whether the components have the correct configurations. The tests can be run in each directory by *first changing to the directory* and then running
+
+```shell
+sbt clean compile test
+```
 
 λλM uses **SLF4j** for logging.
 
