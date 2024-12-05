@@ -1,8 +1,8 @@
 # λλM
 
-+ **Author: Himanshu Dongre**
-+ **Deplyment video link:**
-+ **Bonus video link:**
++ Author: **Himanshu Dongre**
++ Deplyment video link: [https://youtu.be/zUjTfXR4Euw](https://youtu.be/zUjTfXR4Euw)
++ Bonus video link: [https://youtu.be/2gh8NUU503Y](https://youtu.be/2gh8NUU503Y)
 
 ## Overview
 
@@ -47,6 +47,8 @@ Although λλM can be queried using HTTP clients such as `curl` or Postman, it p
 
 + In the active mode, it provides an interactive CLI to the user which takes in prompts, queries the RESTful server in the λλM pipeline, receives the HTTP response, and prints out the generated text to the screen.
 + In the passive mode, it queries λλM with *five pre-defined prompts*, and prints out their generations. This mode is useful for testing purposes.
+
+**The parameter for maximum number of tokens in the generation can be configured from the config file of the client.**
 
 ## Get Started
 
