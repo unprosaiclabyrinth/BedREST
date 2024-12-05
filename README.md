@@ -48,7 +48,7 @@ Although λλM can be queried using HTTP clients such as `curl` or Postman, it p
 + In the active mode, it provides an interactive CLI to the user which takes in prompts, queries the RESTful server in the λλM pipeline, receives the HTTP response, and prints out the generated text to the screen.
 + In the passive mode, it queries λλM with *five pre-defined prompts*, and prints out their generations. This mode is useful for testing purposes.
 
-**The parameter for maximum number of tokens in the generation can be configured from the config file of the client.**
+**The parameter for maximum number of tokens in the generation can be configured from the config file of the client. A low `maxTokrns` parameter csn be why generations are cutting off mid-sentence.**
 
 ## Get Started
 
@@ -100,8 +100,10 @@ Each of the three directories: BedREST client, RESTful server, and the gRPC prox
 
 ### Local testing
 
-The λλM repo contains a `docker-compose.yml` file, which was used to locally test the orchestration of the Docker containers running the three services.
+The λλM repo contains a `docker-compose.yml` file, which was used to locally test the orchestration of the Docker containers running the three services. The only challenge faced in this part was learning the syntax, which I did from the official Docker documentation. After that, it was pretty straightforward.
 
 ### AWS deployment
 
-The Docker containers containing the RESTful server and gRPC proxy were pushed to **AWS ECR**. They were pulled onto two separate EC2 instances and run using the Docker API, `docker run`. The container containing the BedREST client was run locally using the Docker API.
+The Docker containers containing the RESTful server and gRPC proxy were pushed to **AWS ECR**. They were pulled onto two separate EC2 instances and run using the Docker API, `docker run`. The container containing the BedREST client was run locally using the Docker API. My bonus video on the deployment of my application on the cloud using Docker containers details the steps of how the Docker containers are used, and also how the Dockerfiles can be used to configure the containers (e.g. the client). There were really no challenges faced in this part. AWS ECR gives some handy commands in its guide for users to be able to push containers to it. The part of the deployment carried out locally and on EC2 instances was straightforward because it simply used the docker API to pull/run the containers. My bonus video goes over the deployment stages step-by-step.
+
+**One part I did not show in the video but is tremendously important is to update the endpoints of the servers in the config files of the clients. I had done this when I had set up the demo for the video, and I had built the images with the correct endpoints configured. In case the endpoints are incorrect, the client will respond with a message like "Failed to connect to backend", or it will simply timeout.**
